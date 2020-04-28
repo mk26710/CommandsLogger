@@ -1,0 +1,16 @@
+name: CommandsLogger
+main: net.defracted.commandslogger.Main
+version: "1.0"
+author: defracted
+api-version: "1.13"
+
+commands:
+  commandslogger:
+    permission: "commandslogger.notify"
+    aliases: ["cmdlog", "cmdlogger", "cl"]
+
+permissions:
+  commandslogger.notify:
+    description: "Players with this permission will receive notifications"
+    default: op
+
