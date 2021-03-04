@@ -1,0 +1,16 @@
+name: CommandsLogger
+main: dev.moretsu.commandslogger.Main
+version: "1.1"
+author: moretsu
+api-version: "1.13"
+
+commands:
+  commandslogger:
+    permission: "commandslogger.notify"
+    aliases: ["cmdlog", "cmdlogger", "cl"]
+
+permissions:
+  commandslogger.notify:
+    description: "Players with this permission will receive notifications"
+    default: op
+
